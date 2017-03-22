@@ -1,0 +1,17 @@
+page-users {
+    ion-content{
+        background-image: url('img/yux.jpeg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .item-md{
+        background-color: rgba(52, 116, 225, 0.17) !important;
+        &:hover{
+             background-color:rgba(90, 34, 79, 0.54) !important;
+             color: #fff;
+             transition: 2s ease-in-out;
+        }
+    }
+}
